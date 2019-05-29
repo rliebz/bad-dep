@@ -1,7 +1,7 @@
 package inner
 
-import "fmt"
+import "github.com/rliebz/bad-dep/shared"
 
 func Hello() {
-	fmt.Println("hello")
+	shared.Hello()
 }
